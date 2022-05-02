@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+#main {
+    display: flex;
+    width: 100%;
+}
+
+#sidebar {
+    width: 220px;
+    height: 650px;
+    padding: 0px 15px;
+    background-color: antiquewhite;
+
+}
+
+#sidebar h3 {
+    cursor: pointer;
+    padding: 5px 10px;
+   background-color: teal;
+    margin-top: 25px;
+    border: 1px solid black;
+}
+
+#sidebar h3:hover {
+    color: black;
+}
+
+#results {
+    width: 100%;
+    height: auto;
+    padding: 20px 15px;
+}
